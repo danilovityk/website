@@ -218,7 +218,9 @@ date{
   .card-image {
     width: 30%;
     height: 100%;
-    
+    flex-grow: 1;
+    height: auto;
+    max-width: 35%;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
   }
@@ -254,12 +256,6 @@ date{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 10px;
     font-size: larger;
-}
-
-.card img{
-    flex-grow: 1;
-    height: auto;
-    max-width: 35%;
 }
 
 .cardText p2{
