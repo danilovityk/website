@@ -71,13 +71,15 @@ function createProductCard(product)
     const nameCell = document.createElement("h3");
     nameCell.textContent = product.title;
 
-    const institution = document.createElement("p1");
+    const institution = document.createElement("p");
+    institution.classList.add("p1")
     institution.textContent = product.institution;
     
     const descCell = document.createElement("p");
     descCell.textContent = product.description;
 
-    const years = document.createElement("p2");
+  const years = document.createElement("p");
+  years.classList.add("p2");
     years.textContent = product.years;
 
     cardText.appendChild(nameCell);

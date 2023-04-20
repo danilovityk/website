@@ -14,7 +14,7 @@
 <body>
     <section id = "header">
           
-        <img src="ph.jpg" class = "spin-image" alt="photo" width="700px" height="450px">
+        <img src="ph.jpg" class = "spin-image" alt="photo" width="350px" height="450px">
         <h1>Danylo Vityk</h1>
         <h2>Software developer</h2>
         <a href="Danylo Vityk resume1.pdf" download>
@@ -94,17 +94,17 @@
     <h2>Contact form</h2>
     <form id="contact-form" method="POST" action="https://httpbin.org/post">
        
-        <label for="name">Name*</label>
-        <input type="text" id="name" name="name" required>
+        
+        <input type="text" id="name" name="name" placeholder="Name" required>
       
-        <label for="email">Email Address*</label>
-        <input type="email" id="email" name="email" required>
+       
+        <input type="email" id="email" name="email" placeholder="Email" required>
       
-        <label for="address">Address*</label>
-        <input type="text" id="address" name="address" required>
+        
+        <input type="text" id="address" name="address" placeholder="Address" required>
       
-        <label for="city">City*</label>
-        <input type="text" id="city" name="city" required list="cities">
+        
+        <input type="text" id="city" name="city" placeholder="City" required list="cities">
         <datalist id="cities">
           <option value="Toronto">
           <option value="Montreal">
@@ -114,8 +114,8 @@
           <option value="Edmonton">
         </datalist>
       
-        <label for="postal-code">Postal Code*</label>
-        <input type="text" id="postal-code" name="postal-code" required pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d">
+        
+        <input type="text" id="postal-code" name="postal-code" placeholder="Postal Code" required pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d">
       
         <label>What is this about?*</label>
         <div id="radioInput">
@@ -135,15 +135,14 @@
         
       
         <div id="hourly-rate" style="display: none;">
-          <label for="rate">Hourly Rate*</label>
-          <input type="number" id="rate" name="rate">
+          <input type="number" id="rate" name="rate" placeholder="Hourly rate">
         </div>
       
-        <label for="message">Message*</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
       
-        <label for="company-name">Company name</label>
-        <input type="text" id="company-name" name="company-name">
+        
+        <input type="text" id="company-name" name="company-name" placeholder="Company Name">
       
         <button type="submit">Send</button>
       </form>

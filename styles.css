@@ -1,4 +1,5 @@
 button {
+    margin-top: 10px;
     width: 130px;
     height: 45px;
     font-size: 18px;
@@ -12,7 +13,7 @@ button {
 }
 
 button:hover {
-    background-color: #f9b248;
+    background-color: #757575;
     color: #f5f5f5;
 }
   
@@ -122,13 +123,13 @@ textarea {
     }
   }
   
-input[type="text"],
+/* input[type="text"],
 input[type="email"],
 input[type="number"],
 textarea:focus {
     outline: none;
-    box-shadow: 0px 0px 5px #e3e3e3;
-}
+    box-shadow: 0px 0px 3px #e3e3e3;
+} */
 
 #radioInput{
     display: inline-block;
@@ -149,25 +150,25 @@ textarea:focus {
 
   
   
-.spin-image {
-    transition: transform 3s ease-in-out, /* adds a smooth transition effect */
-                width 3s ease-in-out; /* adds a smooth transition effect to the width change */
-    max-width: 100%; /* prevents the image from stretching beyond its original size */
-    border-radius: 1000px;
+ .spin-image {
+    /* transition: transform 3s ease-in-out, 
+                width 3s ease-in-out;  */
+    max-width: 100%; 
+    border-radius: 20px;
 }
-  
+/*
 .spin-image:hover, .spin-image:focus {
-    transform: rotate(10800deg) scale(3); /* rotates the image 360 degrees and scales it up by 20% on hover or focus */
-    cursor: pointer; /* changes the cursor to a pointer to indicate the image is clickable */
+    transform: rotate(10800deg) scale(3); 
+    cursor: pointer; 
 }
   
 .spin-image:active {
-    transform: scale(0.8); /* scales the image down by 20% when clicked */
+    transform: scale(0.8); 
 }
 
 .honestyContainer h2{
     margin-top: 0px;
-}
+} */
 
   
 .honestyContainer {
@@ -194,11 +195,47 @@ textarea:focus {
     #aboutMe {
       width: 100%;
     }
+
+     .cardText h3{
+    margin-top: 10px !important;
+    font-size: 20px !important; 
+    margin-bottom: 20px;
+    }
+  
+    .cardText p{
+        margin-bottom: 0;
+        font-size: smaller;
+    }
+
+    .cardText .p1{
+    padding-bottom: 5px;
+    font-size: 15px !important;
+    padding-bottom: 0px !important;
+
+    }
+
+    .cardText .p2{
+    bottom: 0em !important;
+    font-size: 15px;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    }
+
+
+  .cardText{
+    padding-left: 10px !important;
+    padding-bottom: 10px;
+   
   }
 
+  .card{
+    height: 70%;
+  }
+}
 
-#honestyStatement p2,
-#aboutMe p2{
+
+#honestyStatement .p2,
+#aboutMe .p2{
     
     font-weight: bold;
 }
@@ -233,6 +270,7 @@ date{
 }
 
 
+
 .card-container {
     padding: 40px 0px;
     grid-gap: 20px;
@@ -265,7 +303,7 @@ date{
   .cardText{
     text-align: left;
     padding-left: 1.5em;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     align-items: flex-start;
   }
 
@@ -276,15 +314,17 @@ date{
     margin-bottom: 3px;
   }
   
-.cardText p1{
+.cardText .p1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 10px;
     font-size: larger;
+    margin: 0;
 }
 
-.cardText p2{
+.cardText .p2{
     position: absolute;
-    bottom: 0.7em;
+    bottom: 0;
+    padding: 0;
 }
 
 #Education{
