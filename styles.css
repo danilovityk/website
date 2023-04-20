@@ -12,8 +12,8 @@ button {
 }
 
 button:hover {
-    background-color: #212121;
-    color: #555;
+    background-color: #f9b248;
+    color: #f5f5f5;
 }
   
 
@@ -114,9 +114,11 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
-    #honestyStatement,
-    #aboutMe {
-      max-width: 50%;
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea  {
+      max-width: 70%;
     }
   }
   
