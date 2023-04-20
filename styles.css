@@ -160,20 +160,31 @@ textarea:focus {
 
   
 .honestyContainer {
-    display: table;
-    align-items: top;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
     background-color: #f2f2f2;
-    padding: 40px 20px;
+    padding: 0px 20px;
+    padding-bottom: 30px;
     border: 1px solid #ddd;
     text-align: left;
 }
 
 #honestyStatement,
 #aboutMe{
-    display: table-cell;
+    margin-top: 30px;
     vertical-align: top; /* Align the content to the top */
-    width: 50%;
+    width: 45%;
+    
 }
+
+@media screen and (max-width: 600px) {
+    #honestyStatement,
+    #aboutMe {
+      width: 100%;
+    }
+  }
+
 
 #honestyStatement p2,
 #aboutMe p2{
@@ -181,9 +192,9 @@ textarea:focus {
     font-weight: bold;
 }
 
-#aboutMe{
+/* #aboutMe{
     padding-left: 50px;
-}
+} */
 
 
 #info th{
@@ -198,6 +209,7 @@ textarea:focus {
 
 #honestyStatement{
     position: relative;
+    padding-bottom: 30px;
 }
   
 table{
