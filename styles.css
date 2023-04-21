@@ -167,27 +167,15 @@ textarea:focus {
 
   
   
- .spin-image {
+.spin-image {
     /* transition: transform 3s ease-in-out, 
                 width 3s ease-in-out;  */
     max-width: 100%; 
-    height: 100%;
+    height: 90%;
     border-radius: 20px;
     
 }
-/*
-.spin-image:hover, .spin-image:focus {
-    transform: rotate(10800deg) scale(3); 
-    cursor: pointer; 
-}
-  
-.spin-image:active {
-    transform: scale(0.8); 
-}
 
-.honestyContainer h2{
-    margin-top: 0px;
-} */
 
   
 .honestyContainer {
@@ -259,9 +247,6 @@ textarea:focus {
     font-weight: bold;
 }
 
-/* #aboutMe{
-    padding-left: 50px;
-} */
 
 
 #info th{
