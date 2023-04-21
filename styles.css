@@ -140,13 +140,6 @@ textarea {
   }
 
   
-/* input[type="text"],
-input[type="email"],
-input[type="number"],
-textarea:focus {
-    outline: none;
-    box-shadow: 0px 0px 3px #e3e3e3;
-} */
 
 #radioInput{
     display: inline-block;
